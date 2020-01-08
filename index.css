@@ -23,7 +23,7 @@ body {
   margin-top: 10px;
 }
 
-.canvas__btn button {
+.canvas__btns button {
   all: unset;
   /* all: unset 
   초기 및 부모 스타일속성 모두를 제거함
@@ -54,7 +54,7 @@ body {
   font-size: 12px;
 }
 
-.canvas__btn button:active {
+.canvas__btns button:active {
   transform: scale(0.98);
 }
 

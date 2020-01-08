@@ -11,11 +11,18 @@
     <canvas id="CanvasJs" class="canvas"></canvas>
 
     <div class="canvas__range">
-      <input type="range" min="0.0" max="5.0" value="2.5" step="0.1" />
+      <input
+        type="range"
+        min="0.0"
+        max="5.0"
+        value="2.5"
+        step="0.1"
+        id="jsRange"
+      />
     </div>
-    <div class="canvas__btn">
-      <button>FILL</button>
-      <button>Save</button>
+    <div class="canvas__btns">
+      <button id="jsMode">FILL</button>
+      <button id="jsClass">Save</button>
     </div>
 
     <div class="canvas__colors">
@@ -57,7 +64,6 @@
       </div>
     </div>
 
-    <script src="color.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
